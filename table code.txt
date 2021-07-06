@@ -1,0 +1,60 @@
+CSS code with padding adjusted for Static file:
+
+table, th, td {
+  border: 1px solid black;
+  border-collapse: collapse;
+}
+
+th, td {
+  padding: 7px;
+}
+
+or try this:
+
+table, div {
+width: 100%;
+overflow-x:auto;
+}
+
+th, td {
+  border: 1px solid black;
+  border-collapse: collapse;
+  padding: 5px;
+  overflow-x:auto;
+}
+
+----------------------------------------------------------------------
+
+HTML code for table representation:
+
+<table style="width:100%">
+  <tr>
+    <th>Position Title</th>
+    <th>City/Town/Country</th> 
+    <th>State/Country/Province</th>
+    <th>Duration</th>
+  </tr>
+  <tr>
+    <td>Software Developers (919)</td>
+    <td>Woodbridge, NJ</td>
+    <td>USA</td>
+    <td>Long Term</td>
+  </tr>
+  <tr>
+    <td>Software Developers (917)</td>
+    <td>Woodbridge, NJ</td>
+    <td>USA</td>
+    <td>Long Term</td>
+  </tr>
+  <tr>
+    <td>Data Analytics</td>
+    <td>Woodbridge, NJ</td>
+    <td>USA</td>
+    <td>Long Term</td>
+  </tr>
+    <tr>
+    <td>Data Analytics</td>
+    <td>Woodbridge, NJ</td>
+    <td>USA</td>
+    <td>Long Term</td>
+  </tr>

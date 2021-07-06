@@ -261,6 +261,20 @@ h1, h2, h3, h4, h5, h6 {
   }
 }
 
+table, th, td {
+ border: 2px solid black;
+    border-collapse: collapse;
+  
+    margin-top: 20px;
+    
+    margin-bottom: 20px;
+  }
+
+th, td {
+  padding: 7px;
+}
+
+
 /* Mobile Navigation */
 .mobile-nav-toggle {
   position: fixed;
@@ -278,7 +292,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .mobile-nav-toggle i {
-  color: #fff;
+  color: #black;
 }
 
 .mobile-nav {
