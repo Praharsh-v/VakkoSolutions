@@ -26,6 +26,10 @@
     return false;
   });
 
+$(function () {
+  $('[data-toggle="popover"]').popover()
+});
+
   // Smooth scroll for the navigation menu and links with .scrollto classes
   var scrolltoOffset = $('#header').outerHeight() - 17;
   $(document).on('click', '.nav-menu a, .mobile-nav a, .scrollto', function(e) {
